@@ -3,3 +3,5 @@ from django.http import HttpResponse
 # Crete your views here.
 def index(request):
     return HttpResponse('My first sssh')
+def home(request):
+    return 
